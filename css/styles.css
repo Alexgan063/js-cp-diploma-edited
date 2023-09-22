@@ -98,9 +98,25 @@ body {
   background: rgba(241, 235, 230, 0.95);
   color: #000000;
 }
+
+
+@media(max-width: 320px) {
+  .movie .movie__info {
+    display: flex;
+    flex-direction: column;
+  }
+  .movie .movie__poster {
+    position: relative;
+    height: auto;
+    width: 50%;
+    margin: auto;
+  }
+}
+
 .movie .movie__info {
   display: flex;
 }
+
 .movie .movie__poster {
   position: relative;
   width: 12.5rem;
@@ -112,6 +128,7 @@ body {
   width: 12.5rem;
   height: 17.5rem;
 }
+
 .movie .movie__poster::after {
   content: '';
   display: block;
