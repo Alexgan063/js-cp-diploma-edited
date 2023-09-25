@@ -458,4 +458,17 @@ body {
   pointer-events: none
  }
 
+ .acceptin-button:hover {
+  background-color: #158c95;
+}
 
+.acceptin-link {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+a.to-index:hover, a.to-index:active, a.to-index:visited, a.to-index:link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
